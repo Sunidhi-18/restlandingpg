@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veggie Haven</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/png" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-logo">
+          <a href="#home">Logo</a>
+        </div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a href="#" class="cart-link">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px">
+                <path
+                  d="M280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z" />
+              </svg>
+              <span>0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Welcome to Veggie Haven</h1>
+        <p>
+          Experience the finest vegetarian cuisine, crafted with the freshest
+          ingredients and inspired by global flavors.
+        </p>
+        <a href="#menu" class="btn-main">Explore Our Menu</a>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h1>Menu</h1>
+      <div class="items"></div>
+    </section>
+
+    <section class="about" id="about">
+      <div>
+        <h2>About Us</h2>
+        <img src="./images/undraw_Team_spirit_re_yl1v.png" />
+        <p>
+          Welcome to Veggie Haven in Connaught Place. Enjoy a cozy atmosphere and fresh, locally-sourced vegetarian ingredients. Whether for a casual lunch or celebratory dinner,
+          our team ensures you feel at home. Experience plant-based culinary excellence with us!
+        </p>
+      </div>
+      <div>
+        <h2>Our Menu</h2>
+        <img src="./images/undraw_Dropdown_menu_re_jqqs.png" />
+        <p>
+          Veggie Haven's menu features global flavors and fresh vegetarian ingredients. From savory starters to sweet desserts,
+          enjoy a delightful plant-based experience with options for all dietary needs, including gluten-free. Find your new favorite vegetarian dish with us!
+        </p>
+      </div>
+      <div>
+        <h2>Our Chefs</h2>
+        <img src="./images/undraw_Chef_cu0r.png" />
+        <p>
+          Led by our Executive Chef , the culinary team blends international expertise with creativity. Each dish at
+          Veggie Haven is a perfect mix of tradition and innovation. Meet our chefs and experience exceptional dining artistry.
+        </p>
+      </div>
+      <div>
+        <h2>Events & Catering</h2>
+        <img src="./images/undraw_special_event_4aj8.png" />
+        <p>
+          Veggie Haven provides exceptional vegetarian catering for any event, from small gatherings to grand celebrations. 
+          Our customizable plant-based menus and beautiful venue make every occasion memorable. Contact us to plan your perfect event.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h1>Contact Us For Special Events</h1>
+      <form class="contact-form">
+        <label>
+          Name
+          <input type="text" />
+        </label>
+        <label>
+          Email
+          <input type="email" />
+        </label>
+        <label for="">Phone No.
+          <input type="tel" />
+        </label>
+        <textarea placeholder="Type message here" id="text-area"></textarea>
+        <button>Submit</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <a class="back-home" href="#home">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+            <path d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487h-80Z" />
+          </svg>
+          Back to Top
+        </a>
+        <div class="footer-section">
+          <h4>About Veggie Haven</h4>
+          <p>
+            Nestled in Connaught Place, New Delhi, Veggie Haven offers a delightful
+            culinary experience with our diverse menu and cozy ambiance. Join us for
+            an unforgettable meal!
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Events & Catering</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4>Contact Us</h4>
+          <p>Email: info@veggiehaven.com</p>
+          <p>Phone: +91 18277657647</p>
+          <p>Address: Connaught Place, New Delhi</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Veggie Haven. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
